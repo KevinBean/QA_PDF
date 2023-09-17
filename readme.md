@@ -17,3 +17,11 @@ Download the whole project and run it locally.
 ## TODO
 
 Customised prompt templates.
+
+## Bug
+
+index saving can 
+
+## Screenshot
+
+![screenshot](screenshot.png)
