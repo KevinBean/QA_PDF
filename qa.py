@@ -207,7 +207,8 @@ if st.sidebar.button("index file"):
         )
             st.sidebar.success("Indexing done!✅")
             # create index folder if not exists
-            os.makedirs(index_db_path)
+            if not os.path.exists(index_db_path):
+                os.makedirs(index_db_path)
             # save index for later use
             vectordb.persist()
             st.sidebar.success("Index saved!✅")
